@@ -1,0 +1,53 @@
+/* styles for homepage */
+
+*{
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: inherit;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.jumbotronHeader{
+  text-align: center;
+  font-family: 'Knewave', cursive;
+}
+
+.jumbotron{
+  background: url(../images/worldwide.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.navbar{
+  font-family:  'Muli', sans-serif;
+}
+
+#homepageImages{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.features-blue {
+  background-color: black;
+}
+

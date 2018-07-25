@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Egypt",
+      "datetime": "05/07/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/egypt.jpg",
+      "content": "There’s nowhere in the world quite like Egypt. It’s famous for its iconic ancient sites, like the Pyramids of Giza and the Valley of the Kings. Elsewhere, there’s plenty to keep you busy, from the serene coral-filled waters of the Red Sea to the lively nightlife of Sharm el Sheikh. Flights to Egypt are from R5413.00. The exchange rate is: R1.00 = 0.62 Egyptian Pound. The average hotel room costs R700.00 per day. Eating out in Egypt is 29% cheaper than in South Africa. The top attractions are: Blue Lagoon, the Great Pyramids of Giza – a must-see Ancient Egyptian landmark and a river cruise along the life-giving Nile."
+    },
+    {
+      "id": 2,
+      "title": "Kenya",
+      "datetime": "12/07/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/kenya.jpg",
+      "content": "Kenya lies on the equator, covering an expanse stretching from Lake Victoria to Lake Turkana. Get away from the bright lights of Nairobi, the capital city, and you can hunt down the big 5 on a photo safari, visit the mosques in Mombasa, and explore coffee plantations and tasting rooms. That’s before you get started on natural wonders like Mount Kilimanjaro and the numerous beaches along the Indian Ocean coastline. Flights to Kenya are from R5191.00. The exchange rate is: 1.00 ZAR = 7.09 Kenyan Shilling. The average hotel room costs R1000 per day. Eating out in Kenya is 44% cheaper than in South Africa. The top attractions are: Lamu Old Town – a UNESCO World Heritage site, the Nairobi National Museum (with its Snake Park, Botanical Gardens and Nature Trail), and the rock art on Mfangano Island."
+    },
+    {
+      "id": 3,
+      "title": "Madagascar",
+      "datetime": "19/07/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/madagascar.jpg",
+      "content": "Madagascar has been described as the eighth continent, and it’s easy to see why. A biodiversity hotspot, the island boasts flora and fauna that can’t be found anywhere else in the world. Here, you can get up close to more than a hundred types of lemur, and stand under the shadow of majestic baobab trees. And along the coast, world-class beaches and fantastic dive sites lie ready and waiting. Flights to Madagascar are from R6626.00. The exchange rate is 1.00 ZAR = 221.23 Malagasy Ariary. The average hotel room costs R800.00 per day. Eating out in Madagascar is 51% cheaper than in South Africa. The top attractions are: The Ranomafana National Park, The Royal Hill of Ambohimanga – one of the most sacred spots on the island, and Ifaty – a pair of idyllic fishing villages."
+    },
+    {
+      "id": 4,
+      "title": "Morocco",
+      "datetime": "26/07/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/morroco.jpg",
+      "content": "Morocco’s landscape is characterised by rugged mountains and large portions of desert. This wind-swept, untamed terrain adds to the intrigue that the country holds. No trip here would be complete without a wander around the bustling souks and maze-like alleys of Marrakech. Flights to Morroco are from R5767.00. The exchange rate is 1.00 ZAR = 0.68 Moroccan Dirham. The average hotel room costs R800.00 per day. Eating out in Morocco is 8% cheaper than in South Africa. The top attractions are: Marrakesh Medina, Rabat’s Oudaias Kasbah neighbourhood and Volubilis – Morocco’s number one Roman ruin."
+    },
+    {
+      "id": 5,
+      "title": "Tanzania",
+      "datetime": "26/07/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/tanzania.jpg",
+      "content": "Tanzania is perhaps best-known for Mount Kilimanjaro, Africa’s highest mountain, but there’s plenty more to the country. Visitors who enjoy local music will be enthralled by the traditional sounds of Tanzania, with string-based taarab and a hip-hop style known as bongo flava. And beach fans will be in their element, thanks to the sandy stretches that line the Indian Ocean coast. Flights to Tanzania are from R3244.00. 1.00 ZAR = 153.96 Tanzanian Shilling. The average hotel room costs R1000 per day. Eating out in Tanzania is 9% cheaper than in South Africa. Ruaha National Park, Pemba Island and Lake Manyara – home to almost 300 different species of birds and flamingos in the wet season."
+    },
+
+    {
+      "id": 6,
+      "title": "Bosnia-Herzegovina",
+      "datetime": "20/06/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/bosnia.jpg",
+      "content":"Bosnia and Herzegovina, also known as the “heart shaped land,” prides itself on an unmatched level of hospitality and a unique blend of eastern and western culture. Recent years have seen more and more tourists visiting and, as such, it’s becoming easier and easier to get around and explore. Flights to Bosnia and Herzegovina are from R9160.00. The exchange rate is: 1.00 ZAR = 0.12 Bosnia-Herzegovina Convertible Mark. The average hotel room is R850 per day. Eating out in Bosnia & Herzegovina is 25% cheaper than in South Africa. The top attractions are Sutjeska National Park – 17,500 hectares of untouched wilderness, the 16th-century monastery situated alongside the Buna river and The Humac Museum which hosts a collection of ancient relics."
+
+
+    }
+  
+  ]
+}

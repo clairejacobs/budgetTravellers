@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <!-- cdn for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <!-- linking css stylesheet -->
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+    <!-- link for google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Muli" rel="stylesheet">
+    <!-- summernote -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">#</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="/archive">Archive</a>
+                    </li>
+                    <li class="active">
+                        <a href="/post">Post</a>
+                    </li>
+                    <li class="active">
+                        <a href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="jumbotronHeader">Budget Travellers</h1>
+            <p class="jumbotronHeader">Ideal blog for wanderers!</p>
+        </div>
+        <h2 class="text-center">Create new Post</h2>
+        <form action="/contact" method="POST">
+        <div class="input-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" id="title" placeholder="title">
+        </div>
+
+        <div class="input-group">
+            <label for="datetime">Date/Time</label>
+            <input type="datetime" class="form-control" name="datetime" id="datetime" placeholder="datetime">
+        </div>
+
+        <div class="input-group">
+            <label for="title">Content</label>
+        </div>
+
+        <div class="input-group">
+            <textarea name="content" id="summernote"></textarea>
+            <script>
+                $(document).ready(function () {
+                    $('#summernote').summernote(
+                        {
+                            height: 150
+                            
+                        }
+                        
+                    );
+                });
+            </script>
+        </div>  
+        <div class="form-group">
+            <button class="btn btn-primary" type="post">Post</button>
+        </div>   
+    </form>         
+ </div>
+
+ <div class="container">
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="form-group has-success has-feedback">
+                <input class="form-control" type="text" name="name" placeholder="name">
+            </div>
+            <div class="form-group has-success has-feedback">
+                <input class="form-control" type="text" name="email" placeholder="email">
+                <p class="help-block">
+                    Please enter a correct email address.
+                </p>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
