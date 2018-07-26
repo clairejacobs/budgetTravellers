@@ -8,6 +8,19 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Budget Travelling', posts: posts.posts });
 });
 
+router.get('/views/:id', function(req, res, next) {
+  request({
+   uri: "http://localhost:8000/posts/" + req.params.id,
+   method: "GET"
+  }, function(error, response, body) {
+       console.log(JSON.parse(body));
+
+
+       res.render('readMore', {posts: JSON.parse(body), images: body.image});
+       
+   });
+});
+
 // get new page//
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact', posts: posts.posts });
@@ -57,31 +70,24 @@ let obj ={
 
 //  get edit page
 router.get('/edit/:id', function(req, res, next){
-  var id;
-  var posts = posts.posts;
-  
-  for(var i = 0; i < post.length; i++){
-    if(post[i].id == req.params.id){
-      id = i;
-    }
-  }
-
-  res.render('edit', {
-    title : 'Edit Page',
-    posts : posts.posts,
-    id : id
+  request({
+    url: "http://localhost:8000/posts/"+req.params.id,
+    method: "GET",
+  }, function(error, response, body){
+    res.render("edit", {message: false, posts: JSON.parse(body), title: body.title})
   });
 });
 
-router.get("/edit/:id", function(req, res, next){
+router.post("/edit/:id", function(req, res, next){
   console.log(req.params.id);
   request({
-    url: "http://localhost:8000/contact/"+req.params.id,
+    url: "http://localhost:8000/posts/"+req.params.id,
     method: "PATCH",
     form: {
       title: req.body.title,
       author: req.body.author,
       content: req.body.content,
+      image: req.body.image
     },
     function(error,response,body){
       res.render("index",{message:"successfully added"});
@@ -102,6 +108,8 @@ router.get('/delete/:id', function(req, res, next) {
   })
   res.redirect("/");
 });
+
+
 
 
 module.exports = router;

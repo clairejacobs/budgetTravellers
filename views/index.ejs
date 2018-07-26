@@ -67,9 +67,8 @@
       <div class="panel-footer">
         <p>Author:<%= post.author%></p>
       <p>Date/time: <%= post.datetime %></p></div>
-      <div><a href="/views/<%= posts.id %>"><button type="button" name="button">Read More</button></a></div>
-      <div><a href="/edit/<%= posts.id %>"><button type="button" name="button">Edit</button></a></div>
-      <div><a href="/delete/<%= posts.id %>"><button type="button" name="button">Delete</button></a></div>
+      <div><a href="/views/<%= post.id %>"><button type="button" name="button">Read More</button></a></div>
+      
       <div>
         <img src=<%= post.image %> width="100%">
       </div>

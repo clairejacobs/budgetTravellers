@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        <%= title %>
+        <%= posts.title %>
     </title>
     <!-- cdn for icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
@@ -28,6 +28,7 @@
 </head>
 
 <body>
+    <h1 sty><% posts.title %></h1>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -61,22 +62,22 @@
             <h1 class="jumbotronHeader">Budget Travellers</h1>
             <p class="jumbotronHeader">Ideal blog for wanderers!</p>
         </div>
-        <h2 class="text-center">Create new Post</h2>
+        <h2 class="text-center">Edit Post</h2>
 
-        <form action="/edit/<%= posts[id].id %>" method="POST">
+        <form action="/edit/<%= posts.id %>" method="POST">
         <div class="input-group">
             <label for="title">Title</label>
-            <input type="text" class="form-control" name="title" id="title" placeholder="title" value="/edit/<%=posts[id].title%>">
+            <input type="text" class="form-control" name="title" id="title" placeholder="title" value="<%= posts.title %>">
         </div>
 
         <div class="input-group">
             <label for="datetime">Date/Time</label>
-            <input type="datetime" class="form-control" name="datetime" id="datetime" placeholder="datetime"  value="/edit/<%=posts[id].datetime%>">
+            <input type="datetime" class="form-control" name="datetime" id="datetime" placeholder="datetime"  value="<%=posts.datetime%>">
         </div>
 
         <div class="input-group">
             <label for="author">Author</label>
-            <input type="author" class="form-control" name="datetime" id="datetime" placeholder="datetime"  value="/edit/<%=posts[id].author%>">
+            <input type="author" class="form-control" name="datetime" id="datetime" placeholder="datetime"  value="<%=posts.author%>">
         </div>
 
         <div class="input-group">
@@ -84,7 +85,7 @@
         </div>
 
         <div class="input-group">
-            <textarea name="content" id="summernote" value="/edit/<%=posts[id].content%>"></textarea>
+            <textarea name="content" id="summernote"><%= posts.content %></textarea>
             <script>
                 $(document).ready(function () {
                     $('#summernote').summernote(
