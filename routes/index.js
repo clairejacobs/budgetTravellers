@@ -42,6 +42,12 @@ router.get('/edit', function(req, res, next) {
   res.render('edit', { title: 'Edit'});
 });
 
+router.get('/post', function(req, res, next){
+  res.render('post',{title: 'New Post'});
+});
+
+
+
 
 
 /* POST new page. */
@@ -109,7 +115,26 @@ router.get('/delete/:id', function(req, res, next) {
   res.redirect("/");
 });
 
+// post login page
+router.post('/loginin', function(req, res, next)
+  {
+    var users = post.users;
+    console.log(users);
 
+    var username = req.body.username;
+    var password = req.body.password;
+    console.log("username:" +username);
+
+    for(let i in users){
+      console.log(username);
+      if(username == users[i].username &&
+      password == users[i].password){
+        res.render('index',{title:'Home',
+      posts: posts.posts});
+      }
+    }
+    res.render('loginin',{title:'login'});
+  });
 
 
 module.exports = router;

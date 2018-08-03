@@ -8,6 +8,15 @@
       "image": "/images/egypt.jpg",
       "content": "There’s nowhere in the world quite like Egypt. It’s famous for its iconic ancient sites, like the Pyramids of Giza and the Valley of the Kings. Elsewhere, there’s plenty to keep you busy, from the serene coral-filled waters of the Red Sea to the lively nightlife of Sharm el Sheikh. Flights to Egypt are from R5413.00. The exchange rate is: R1.00 = 0.62 Egyptian Pound. The average hotel room costs R700.00 per day. Eating out in Egypt is 29% cheaper than in South Africa. The top attractions are: Blue Lagoon, the Great Pyramids of Giza – a must-see Ancient Egyptian landmark and a river cruise along the life-giving Nile."
     },
+
+    {
+      "id": 2,
+      "title": "Kenya",
+      "datetime": "05/03/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/kenya.jpg",
+      "content": "Kenya lies on the equator, covering an expanse stretching from Lake Victoria to Lake Turkana. Get away from the bright lights of Nairobi, the capital city, and you can hunt down the big 5 on a photo safari, visit the mosques in Mombasa, and explore coffee plantations and tasting rooms. That’s before you get started on natural wonders like Mount Kilimanjaro and the numerous beaches along the Indian Ocean coastline. Flights to Kenya are from R5191.00. The exchange rate is: 1.00 ZAR = 7.09 Kenyan Shilling. The average hotel room costs R1000 per day. Eating out in Kenya is 44% cheaper than in South Africa. The top attractions are: Lamu Old Town – a UNESCO World Heritage site, the Nairobi National Museum (with its Snake Park, Botanical Gardens and Nature Trail), and the rock art on Mfangano Island."
+    },
     {
       "id": 3,
       "title": "Madagascar",
@@ -39,6 +48,38 @@
       "author": "Claire Jacobs",
       "image": "/images/bosnia.jpg",
       "content": "Bosnia and Herzegovina, also known as the “heart shaped land,” prides itself on an unmatched level of hospitality and a unique blend of eastern and western culture. Recent years have seen more and more tourists visiting and, as such, it’s becoming easier and easier to get around and explore. Flights to Bosnia and Herzegovina are from R9160.00. The exchange rate is: 1.00 ZAR = 0.12 Bosnia-Herzegovina Convertible Mark. The average hotel room is R850 per day. Eating out in Bosnia & Herzegovina is 25% cheaper than in South Africa. The top attractions are Sutjeska National Park – 17,500 hectares of untouched wilderness, the 16th-century monastery situated alongside the Buna river and The Humac Museum which hosts a collection of ancient relics."
+    }, 
+    {
+      "id": 7,
+      "title": "Hungary",
+      "datetime": "03/04/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/hungary.jpg",
+      "content": "Fondly referred to as the “land of waters,” Hungary plays host to Europe’s largest lake – Lake Balaton – and is intersected by a variety of mighty rivers situated throughout this region. Its interesting history tells tales of great battles, secret alliances, intrigue and royalty. Flights to Hungary are from R6417.00. The exchange rate is: 1.00 ZAR = 19.22 Hungarian Forint. The average hotel room is R800.00 per day. Eating out in Hungary is 15% cheaper than in South Africa. The top attractions are The caves of Aggtelek Karst and Slovak Karst in the Aggtelek National Park in north-eastern Hungary, its thermal springs and the Hungarian National Museum."   
+    },
+    {
+      "id": 8,
+      "title": "Serbia",
+      "datetime": "07/02/2018",
+      "author": "Claire Jacobs",
+      "image": "/images/serbia.jpg",
+      "content": "Serbia is not a mass tourism destination, which makes it an ideal spot for travellers who want to avoid sites that draw large crowds or in-season visitors. Its attractions include its mountains and spas, many of which are frequented by domestic travellers. Belgrade however, is the preferred choice of foreign visitors. Flights to Serbia are from R6314.00. The exchamge rate is: 1.00 ZAR = 7.57 Serbian Dinar. The average hotel room is R800.00 per day. Eating out in Serbia is 27% cheaper than in South Africa. The top attractions are Djavolja Varos (or Devil’s Town), the Nikola Tesla Museum and the Nis Fortress – an 18th century fort that was built on a medieval foundation. "
+    },
+    {
+      "id": 9,
+      "title": "China",
+      "author": "Claire Jacobs",
+      "datetime":"02/02/2018",
+      "image": "/images/china.jpg",
+      "content": "China has a recorded history of over 5,000 years, making it one of the four ancient civilisations. China has a vast tourist offering includes cultural experiences, historical tours of antique sites and relics, a number of natural wonders and diverse folk customs. Flights to China are from R5904.00. The exchange rate is: 1.00 ZAR = 0.45 Chinese Yuan. The average hotel room is R700.00 per day. Eating out in China is 11% cheaper than in South Africa. The top attractions are The Terracotta Army of warriors and horses – a significant and ongoing archaeological excavation, The Forbidden City and the Yangtze River."
+    },
+    {
+      "id": 10,
+      "title": "India",
+      "author": "Claire Jacobs",
+      "datetime": "01/02/2018",
+      "image": "/images/india.jpg",
+      "content": "To travel to India is to indulge in a sensory experience – vibrant colours, beautiful fragrances, rich history and lively culture. It is the home of a variety of yoga and meditation retreats frequented by local and international visitors alike. Its tourism offering includes natural wonders such as the Himalayas and spectacular Ganges, architectural icons just think of Taj Mahal or ancient city of Varanasi and, of course, epic cuisine. Flights to India are from R4437.00. The exchange rate is: 1.00 ZAR = 4.65 Indian Rupee. The average hotel room is R800.00 per day. Eating out in India is 40% cheaper than in South Africa. The top attractions are Kashmir – fondly referred to as “The Paradise on Earth,” the sparkling lakes in Udaipur and the Jain Temple in Ranakpur."
     }
   ]
 }

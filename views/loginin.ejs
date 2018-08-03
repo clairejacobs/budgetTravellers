@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <%= title %>
-    </title>
-    <!-- cdn for icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous">
-    <!-- linking css stylesheet -->
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
-    <!-- bootstrap cdn -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
-
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
-    <!-- link for google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Knewave|Muli" rel="stylesheet">
-    <!-- summernote -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="jumbotronHeader">Budget Travellers</h1>
-            <p class="jumbotronHeader">Ideal blog for wanderers!</p>
-        </div>
-       <h2 class="text-center">Login</h2>
-       <div class="container">
-       <div class="login-dark">
-           <form method="post">
-               <h2 class="sr-only">Login</h2>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+         <%= title %>
+      </title>
+      <!-- cdn for icons -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+         crossorigin="anonymous">
+      <!-- linking css stylesheet -->
+      <link rel='stylesheet' href='/stylesheets/style.css'/>
+      <!-- bootstrap cdn -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+         crossorigin="anonymous">
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+      <!-- link for google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+      <!-- summernote -->
+      <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+   </head>
+   <body>
+      <div class="headerimg">
+         <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/archive">Archive</a>
+            <a href="/post">Post</a>
+            <a href="/contact">Contact</a>
+            <a data-toggle="dropdown" class="btn btn-info dropdown-toggle get-started-btn mt-1 mb-1" href="/loginin">Login</a>
+            <a href="/signin" data-toggle="dropdown" class="btn btn-info dropdown-toggle get-started-btn mt-1 mb-1">Sign Up</a>
+         </div>
+         <div class="heading">
+            <h1>Budget Travellers</h1>
+            <h3> Login</h3>
+         </div>
+      </div>
+      <h2 class="text-center">Login</h2>
+      <div class="container">
+         <div class="login-dark">
+            <form method="post">
+               <!-- <h2 class="sr-only">Login</h2> -->
                <div class="illustration">
-                   <i class="icon ion-ios-locked-outline"></i>
+                  <i class="icon ion-ios-locked-outline"></i>
                </div>
                <div class="form-group">
-                   <input class="form-control" type="email" name="email" placeholder="Email">
+                  <input class="form-control" type="email" name="email" placeholder="Email">
                </div>
                <div class="form-group">
-                <input class="form-control" type="password" name="password" placeholder="Password">
+                  <input class="form-control" type="password" name="password" placeholder="Password">
                </div>
-               <div class="form-group">
-                   <button class="btn btn-primary btn-block" type="submit"> <a href="/">Login</a></button>
+               <div><a href="/">
+                  <button class="imgButton">Login</button></a>
                </div>
                <a class="forgot" href="">Forgot your email or password?</a>
-           </form>
-       </div>
-    </div>
-</div>
-</body>
-
+            </form>
+         </div>
+      </div>
+      </div>
+      <footer>
+         <h3>Created & Designed by Claire Jacobs</h3>
+      </footer>
+   </body>
 </html>
